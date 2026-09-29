@@ -85,8 +85,8 @@
     <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/slick.css">
     <link rel="stylesheet" href="css/style.css?v=20260917">
     <!--客服-->
-    <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/chatbot.css">
-    <script src="https://event.kgi.com.tw/news/event/commonResources/js/chatbot.js"></script>
+    <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/chatbot.css?v=20260929">
+    <script src="https://event.kgi.com.tw/news/event/commonResources/js/chatbot.js?v=20260929"></script>
 
     <script src="https://event.kgi.com.tw/news/event/commonResources/js/vue-v3.js"></script>
     <script src="https://event.kgi.com.tw/news/event/commonResources/js/jquery-v3.4.min.js"></script>
@@ -305,8 +305,11 @@
 
           <nav class="navBar" :class="{show: menuOpen}" aria-label="活動導覽">
             <ul>
-              <li v-for="item in navItems" :key="item.id">
-                <a :href="'#' + item.id" :title="item.label" @click="closeMenu">{{ item.label }}</a>
+              <li v-for="item in navItems" :key="item.id || item.url">
+                <a :href="item.url || '#' + item.id" :title="item.label" :target="item.url ? '_blank' : null"
+                  :rel="item.url ? 'noopener noreferrer' : null" @click="closeMenu">
+                  {{ item.label }}
+                </a>
               </li>
             </ul>
           </nav>
@@ -959,7 +962,7 @@
 
         }
       </script>
-      <script src="js/main.js?v=20260918"></script>
+      <script src="js/main.js?v=20260929"></script>
       <script src="../event_setting/rewards_2026Q4/checkdate.js"></script>
     </form>
   </body>
