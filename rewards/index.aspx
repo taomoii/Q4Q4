@@ -522,20 +522,20 @@
                     <img class="fee-illustration" src="images/fees_01.svg" alt="台股新戶手續費優惠">
                     <h3>台股新戶</h3>
                     <p><strong>手續費優惠</strong></p>
-                    <a href="https://chatservice.kgi.com.tw/Webhook/?q=台股手續費" target="_blank">點此了解 &gt;</a>
+                    <a href="javascript:void(0);" onclick="KGIChatbot.open();">點此了解 &gt;</a>
                   </article>
                   <article>
                     <img class="fee-illustration" src="images/fees_02.svg" alt="美股手續費優惠">
                     <h3>美股手續費超有感</h3>
                     <p>免申請立即擁有</p>
                     <p><strong>手續費驚喜價?</strong></p>
-                    <a href="https://chatservice.kgi.com.tw/Webhook/?q=美股手續費" target="_blank">點此了解 &gt;</a>
+                    <a href="javascript:void(0);" onclick="KGIChatbot.open();">點此了解 &gt;</a>
                   </article>
                   <article>
                     <img class="fee-illustration" src="images/fees_03.svg" alt="台美股定期定額優惠">
                     <h3>台美股定期定額</h3>
                     <p><strong>均一價</strong></p>
-                    <a href="https://chatservice.kgi.com.tw/Webhook/?q=定期定額手續費" target="_blank">點此了解 &gt;</a>
+                    <a href="javascript:void(0);" onclick="KGIChatbot.open();">點此了解 &gt;</a>
                   </article>
                 </div>
               </div>
@@ -962,7 +962,7 @@
 
         }
       </script>
-      <script src="js/main.js?v=20260929v2"></script>
+      <script src="js/main.js?v=20260929v3"></script>
       <script src="../event_setting/rewards_2026Q4/checkdate.js"></script>
     </form>
   </body>
