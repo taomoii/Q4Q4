@@ -332,8 +332,8 @@
                 </picture>
                 <div class="hero-copy">
                   <img class="hero-title-image" src="images/hero-title01.png" alt="選擇凱基，開始累積；享投資 選凱基">
-                  <a href="https://eoa.kgi.com.tw/OOA/index.aspx?src=S_113&prod=P_163&_gl=1*1lfe8u3*_gcl_aw*R0NMLjE3ODkwODg2NDAuQ2p3S0NBandxb25WQmhBNEVpd0E5d1lKM2NlT2dxeTJmVWVySmc0R3pwRnRJczZYOUE0ZnBKSlFZLS1YQTRhakUxbmE5Y3ZxYTFZX3ZSb0NuLXNRQXZEX0J3RQ..*_gcl_au*NDU1NzYxMTk3LjE3ODIxODM3NzY.*_ga*MTg5NTkwMjgwMS4xNzgyMTgzNzc2*_ga_K1BGJY4WFR*czE3ODkzNTQzNjkkbzE3NCRnMSR0MTc4OTM1NDczNyRqNjAkbDAkaDA.&Source=E260801"
-                    target="_blank" rel="noopener noreferrer" id="AccountBtn_K">
+                  <a href="https://eoa.kgi.com.tw/OOA/index.aspx?Source=E260801" target="_blank"
+                    rel="noopener noreferrer" id="AccountBtn_K">
                     <span class="hero-button-text">立即開戶</span>
                     <span class="hero-button-arrow" aria-hidden="true">›</span>
                   </a>
