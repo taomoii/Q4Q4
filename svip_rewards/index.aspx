@@ -84,10 +84,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/slick.css">
     <link rel="stylesheet" href="css/style.css?v=20260929">
-    <!--客服-->
-    <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/chatbot.css?v=20260929v1">
-    <script src="https://event.kgi.com.tw/news/event/commonResources/js/chatbot.js?v=20260929v1"></script>
-
     <script src="https://event.kgi.com.tw/news/event/commonResources/js/vue-v3.js"></script>
     <script src="https://event.kgi.com.tw/news/event/commonResources/js/jquery-v3.4.min.js"></script>
     <script src="https://event.kgi.com.tw/news/event/commonResources/js/slick.min.js"></script>
@@ -338,8 +334,8 @@
                 </picture>
                 <div class="hero-copy">
                   <img class="hero-title-image" src="images/hero-title01.png" alt="選擇凱基，開始累積；享投資 選凱基">
-                  <a href="https://eoa.kgi.com.tw/OOA/index.aspx?Source=E260801" target="_blank"
-                    rel="noopener noreferrer" id="AccountBtn_K">
+                  <a href="https://eoa.kgi.com.tw/OOA/index.aspx?src=S_113&prod=P_163&_gl=1*1lfe8u3*_gcl_aw*R0NMLjE3ODkwODg2NDAuQ2p3S0NBandxb25WQmhBNEVpd0E5d1lKM2NlT2dxeTJmVWVySmc0R3pwRnRJczZYOUE0ZnBKSlFZLS1YQTRhakUxbmE5Y3ZxYTFZX3ZSb0NuLXNRQXZEX0J3RQ..*_gcl_au*NDU1NzYxMTk3LjE3ODIxODM3NzY.*_ga*MTg5NTkwMjgwMS4xNzgyMTgzNzc2*_ga_K1BGJY4WFR*czE3ODkzNTQzNjkkbzE3NCRnMSR0MTc4OTM1NDczNyRqNjAkbDAkaDA.&Source=E260801"
+                    target="_blank" rel="noopener noreferrer" id="AccountBtn_K">
                     <span class="hero-button-text">立即開戶</span>
                     <span class="hero-button-arrow" aria-hidden="true">›</span>
                   </a>
@@ -530,20 +526,20 @@
                     <img class="fee-illustration" src="images/fees_01.svg" alt="台股新戶手續費優惠">
                     <h3>台股新戶</h3>
                     <p><strong>手續費優惠</strong></p>
-                    <a href="javascript:void(0);" onclick="KGIChatbot.open();">點此了解 &gt;</a>
+                    <a href="https://chatservice.kgi.com.tw/Webhook/?q=台股手續費" target="_blank">點此了解 &gt;</a>
                   </article>
                   <article>
                     <img class="fee-illustration" src="images/fees_02.svg" alt="美股手續費優惠">
                     <h3>美股手續費超有感</h3>
                     <p>免申請立即擁有</p>
                     <p><strong>手續費驚喜價?</strong></p>
-                    <a href="javascript:void(0);" onclick="KGIChatbot.open();">點此了解 &gt;</a>
+                    <a href="https://chatservice.kgi.com.tw/Webhook/?q=美股手續費" target="_blank">點此了解 &gt;</a>
                   </article>
                   <article>
                     <img class="fee-illustration" src="images/fees_03.svg" alt="台美股定期定額優惠">
                     <h3>台美股定期定額</h3>
                     <p><strong>均一價</strong></p>
-                    <a href="javascript:void(0);" onclick="KGIChatbot.open();">點此了解 &gt;</a>
+                    <a href="https://chatservice.kgi.com.tw/Webhook/?q=定期定額手續費" target="_blank">點此了解 &gt;</a>
                   </article>
                 </div>
               </div>
@@ -899,8 +895,8 @@
         <div class="fixedBtn">
           <ul>
             <li>
-              <a href="https://eoa.kgi.com.tw/OOA/index.aspx?Source=E260801" title="開戶" target="_blank"
-                id="AccountBtn_F">
+              <a href="https://eoa.kgi.com.tw/OOA/index.aspx?src=S_113&amp;prod=P_163&amp;_gl=1*1lfe8u3*_gcl_aw*R0NMLjE3ODkwODg2NDAuQ2p3S0NBandxb25WQmhBNEVpd0E5d1lKM2NlT2dxeTJmVWVySmc0R3pwRnRJczZYOUE0ZnBKSlFZLS1YQTRhakUxbmE5Y3ZxYTFZX3ZSb0NuLXNRQXZEX0J3RQ..*_gcl_au*NDU1NzYxMTk3LjE3ODIxODM3NzY.*_ga*MTg5NTkwMjgwMS4xNzgyMTgzNzc2*_ga_K1BGJY4WFR*czE3ODkzNTQzNjkkbzE3NCRnMSR0MTc4OTM1NDczNyRqNjAkbDAkaDA.&amp;Source=E260801"
+                title="開戶" target="_blank" id="AccountBtn_F">
                 <img src="images/open-account.svg" alt="開戶" id="FixedBtn_F01">
               </a>
             </li>
@@ -929,7 +925,7 @@
               <p>新朋友請記得完成台美股開戶審核並綁定「凱基證券樂活投資人」LINE官方帳號，最高1,000元手續費抵用金等你拿！</p>
               <div class="btnArea">
                 <div class="btn blue">
-                  <a href="https://eoa.kgi.com.tw/OOA/index.aspx?Source=E260801" title="立即開戶" id="SingninBtn_M"
+                  <a href="https://eoa.kgi.com.tw/OOA/index.aspx?Source=E260801" title="立即開戶" id="SigninBtn_M"
                     target="_blank" rel="nofollow me noopener noreferrer">立即開戶GO<i
                       class="fa-solid fa-angle-right"></i></a>
                 </div>
