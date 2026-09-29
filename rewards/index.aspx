@@ -962,7 +962,7 @@
 
         }
       </script>
-      <script src="js/main.js?v=20260929"></script>
+      <script src="js/main.js?v=20260929v2"></script>
       <script src="../event_setting/rewards_2026Q4/checkdate.js"></script>
     </form>
   </body>
