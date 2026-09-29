@@ -85,8 +85,8 @@
     <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/slick.css">
     <link rel="stylesheet" href="css/style.css?v=20260929">
     <!--客服-->
-    <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/chatbot.css?v=20260929">
-    <script src="https://event.kgi.com.tw/news/event/commonResources/js/chatbot.js?v=20260929"></script>
+    <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/chatbot.css?v=20260929v1">
+    <script src="https://event.kgi.com.tw/news/event/commonResources/js/chatbot.js?v=20260929v1"></script>
 
     <script src="https://event.kgi.com.tw/news/event/commonResources/js/vue-v3.js"></script>
     <script src="https://event.kgi.com.tw/news/event/commonResources/js/jquery-v3.4.min.js"></script>
@@ -899,8 +899,8 @@
         <div class="fixedBtn">
           <ul>
             <li>
-              <a href="https://eoa.kgi.com.tw/OOA/index.aspx?src=S_113&amp;prod=P_163&amp;_gl=1*1lfe8u3*_gcl_aw*R0NMLjE3ODkwODg2NDAuQ2p3S0NBandxb25WQmhBNEVpd0E5d1lKM2NlT2dxeTJmVWVySmc0R3pwRnRJczZYOUE0ZnBKSlFZLS1YQTRhakUxbmE5Y3ZxYTFZX3ZSb0NuLXNRQXZEX0J3RQ..*_gcl_au*NDU1NzYxMTk3LjE3ODIxODM3NzY.*_ga*MTg5NTkwMjgwMS4xNzgyMTgzNzc2*_ga_K1BGJY4WFR*czE3ODkzNTQzNjkkbzE3NCRnMSR0MTc4OTM1NDczNyRqNjAkbDAkaDA.&amp;Source=E260801"
-                title="開戶" target="_blank" id="AccountBtn_F">
+              <a href="https://eoa.kgi.com.tw/OOA/index.aspx?Source=E260801" title="開戶" target="_blank"
+                id="AccountBtn_F">
                 <img src="images/open-account.svg" alt="開戶" id="FixedBtn_F01">
               </a>
             </li>
