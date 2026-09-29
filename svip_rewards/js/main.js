@@ -12,12 +12,7 @@ const app = Vue.createApp({
   data() {
     return {
       menuOpen: false, showTop: false, ticketModal: false, pid: '', redeemCode: '', agreed: true, formMessage: '', rankingTab: 'tw', redeemTab: 0, redeemStep: 0, teachingDragStart: null, teachingDragX: 0, openFaq: [], noticeOpen: false, parallaxBalls: [], parallaxFrame: 0,
-      navItems: [{id:'gifts',label:'好禮三重送'},{id:'fees',label:'手續費省更多'},{id:'open',label:'線上開戶'},{id:'ranking',label:'熱門排行'},{id:'qa',label:'Q&A'},
-        {
-          url:'https://event.kgi.com.tw/news/event/newoffer/index.aspx?src=S_113&prod=P_160',
-          label:'已結束-前期活動回顧'
-        }
-      ],
+      navItems: [{id:'gifts',label:'好禮三重送'},{id:'fees',label:'手續費省更多'},{id:'open',label:'線上開戶'},{id:'ranking',label:'熱門排行'},{id:'qa',label:'Q&A'}],
       rankings: {
         tw:[{code:'0050',type:'市值型',name:'元大台灣50',copy:'追蹤富時臺灣證券交易所臺灣50指數，挑選臺灣證券交易所上市股票中，總市值最大的50家公司作為指數的成分股。'},{code:'0056',type:'高股息',name:'元大高股息',copy:'追蹤臺灣富時臺灣證券交易所高股息指數，該指數選取未來一年預測現金股利殖利率最高的50支股票作為成分股。'},{code:'00878',type:'高股息',name:'國泰永續高股息',copy:'追蹤MSCI臺灣ESG永續高股息精選30指數，捕捉台灣兼具永續與高息兩大特徵之企業的績效表現。 '},{code:'2330',type:'科技',name:'台積電',copy:'全球晶圓代工龍頭，先進製程與量產能力領先，為AI與高效能運算關鍵供應商。'},{code:'00919',type:'市值型',name:'凱基台灣TOP50',copy:'追蹤「臺灣指數公司特選臺灣 TOP 50 指數」，經流動性及獲利指標，篩選出市值排名前 50 的股票。'}],
         us:[{code:'VOO',type:'',name:'先鋒標普 500 ETF',copy:'投資美國500強企業，穩健成長首選。'},{code:'NVDA',type:'',name:'輝達',copy:'美國的電腦設備製造商，專門設計，並銷售圖形處理器(GPU)領域適用的軟硬體設備。'},{code:'QQQ',type:'',name:'景順 QQQ 信託系列1',copy:'聚焦納斯達克100，科技創新動力強勁。'},{code:'VT',type:'',name:'先鋒全世界股票 ETF',copy:'覆蓋全球市場，分散投資首選標的。'},{code:'QQQM',type:'',name:'Invesco 納斯達克100 ETF',copy:'全球最大ETF，追蹤美國股市核心指數。'}]

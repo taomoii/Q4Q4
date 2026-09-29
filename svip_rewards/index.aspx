@@ -83,7 +83,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/slick.css">
-    <link rel="stylesheet" href="css/style.css?v=20260918">
+    <link rel="stylesheet" href="css/style.css?v=20260929">
     <!--客服-->
     <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/chatbot.css?v=20260929">
     <script src="https://event.kgi.com.tw/news/event/commonResources/js/chatbot.js?v=20260929"></script>
