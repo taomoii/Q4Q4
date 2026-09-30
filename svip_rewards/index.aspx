@@ -83,10 +83,10 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/slick.css">
-    <link rel="stylesheet" href="css/style.css?v=20260929">
+    <link rel="stylesheet" href="css/style.css?v=20260930">
     <!--客服-->
-    <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/chatbot.css?v=20260929v1">
-    <script src="https://event.kgi.com.tw/news/event/commonResources/js/chatbot.js?v=20260929v1"></script>
+    <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/chatbot.css?v=20260930">
+    <script src="https://event.kgi.com.tw/news/event/commonResources/js/chatbot.js?v=20260930"></script>
 
     <script src="https://event.kgi.com.tw/news/event/commonResources/js/vue-v3.js"></script>
     <script src="https://event.kgi.com.tw/news/event/commonResources/js/jquery-v3.4.min.js"></script>
@@ -340,7 +340,7 @@
                   <img class="hero-title-image" src="images/hero-title01.png" alt="選擇凱基，開始累積；享投資 選凱基">
                   <a href="https://eoa.kgi.com.tw/OOA/index.aspx?Source=E260801" target="_blank"
                     rel="noopener noreferrer" id="AccountBtn_K">
-                    <span class="hero-button-text">立即開戶</span>
+                    立即開戶
                     <span class="hero-button-arrow" aria-hidden="true">›</span>
                   </a>
                 </div>
