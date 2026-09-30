@@ -83,7 +83,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/slick.css">
-    <link rel="stylesheet" href="css/style.css?v=20260930v2">
+    <link rel="stylesheet" href="css/style.css?v=20260930v3">
     <!--客服-->
     <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/chatbot.css?v=20260930">
     <!--JS另外調整再最下方-->
@@ -954,7 +954,7 @@
         }
       </script>
       <script src="js/chatbot.js?v=20260930"></script>
-      <script src="js/main.js?v=20260918v2"></script>
+      <script src="js/main.js?v=20260918v3"></script>
       <script src="../event_setting/svip_rewards_2026Q4/checkdate.js"></script>
     </form>
   </body>
