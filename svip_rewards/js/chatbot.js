@@ -90,7 +90,7 @@
             ✨開戶享3重好禮！台美股新戶送500元蝦皮全站優惠券 ✨ <br>
             ✨交易滿額再抽 iPhone 18 及蝦皮萬元購物金✨ <br>
             <a
-              href="https://event.kgi.com.tw/news/event/rewards/index.aspx#login"
+              href="https://event.kgi.com.tw/news/event/rewards/index.aspx#register"
               target="_blank"
             >
             立即登錄 <span class="right-arrow"><img src="images/chatbot/arrow.svg" class="btn-grid-img"></span>
@@ -223,9 +223,9 @@
         
             👉 登錄活動頁：
             <a
-              href="https://event.kgi.com.tw/news/event/rewards/index.aspx#gifts"
-              data-kgi-anchor="gifts"
-              onclick="goToSection(event, 'gifts')"
+              href="https://event.kgi.com.tw/news/event/rewards/index.aspx#register"
+              data-kgi-anchor="register"
+              onclick="goToSection(event, 'register')"
             >
             立即登錄 <span class="right-arrow"><img src="images/chatbot/arrow.svg" class="btn-grid-img"></span>
             </a>
