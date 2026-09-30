@@ -953,7 +953,7 @@
 
         }
       </script>
-      <script src="js/chatbot.js"></script>
+      <script src="js/chatbot.js?v=20260930"></script>
       <script src="js/main.js?v=20260918v1"></script>
       <script src="../event_setting/svip_rewards_2026Q4/checkdate.js"></script>
     </form>
