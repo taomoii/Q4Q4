@@ -27,7 +27,7 @@
     <meta property="og:description"
       content="凱基證券開戶優惠年末限時加碼！開戶即享500元蝦皮全站優惠券，蝦皮VIP前3個月每月1,000元，後續月月700元，滿額再抽 iPhone 18 Pro及蝦皮萬元購物金。線上開戶超方便，台美股今天開戶，明天立即開始投資。">
     <meta property="og:url" content="https://event.kgi.com.tw/news/event/svip_rewards/index.aspx">
-    <meta property="og:image" content="https://event.kgi.com.tw/news/event/svip_rewards/images/fb.jpg">
+    <meta property="og:image" content="https://event.kgi.com.tw/news/event/svip_rewards/images/fb.jpg?v=20260930">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <link rel="canonical" href="https://event.kgi.com.tw/news/event/svip_rewards/index.aspx">
@@ -47,7 +47,7 @@
         "@type": "WebPage",
         "@id": "https://event.kgi.com.tw/news/event/svip_rewards/index.aspx"
       },
-      "image": ["https://event.kgi.com.tw/news/event/svip_rewards/images/fb.jpg"]
+      "image": ["https://event.kgi.com.tw/news/event/svip_rewards/images/fb.jpg?v=20260930"]
     }
   </script>
 
@@ -83,7 +83,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/slick.css">
-    <link rel="stylesheet" href="css/style.css?v=20260930">
+    <link rel="stylesheet" href="css/style.css?v=20260930v1">
     <!--客服-->
     <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/chatbot.css?v=20260930">
     <!--JS另外調整再最下方-->

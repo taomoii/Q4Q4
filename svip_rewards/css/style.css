@@ -5734,6 +5734,24 @@ h2 {
     margin-bottom: 10px;
   }
 
+  .qa-area {
+    overflow-anchor: none;
+  }
+
+  .accordion,
+  .accordion:has(.qa-list-tit[aria-expanded=true]) {
+    transform: none;
+  }
+
+  .accordion-answer,
+  .accordion-answer.is-open {
+    transform: none;
+  }
+
+  .accordion-answer {
+    transition: grid-template-rows .45s ease, opacity .35s ease;
+  }
+
   .accordion .qa-list-tit {
     grid-template-columns: 42px minmax(0, 1fr) 24px;
     gap: 10px;
