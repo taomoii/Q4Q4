@@ -1031,10 +1031,6 @@ h3 {
 }
 
 @media(max-width:600px) {
-  html {
-    scroll-behavior: auto;
-  }
-
   .teaching-content {
     min-height: 670px;
     margin-top: 0;
@@ -5730,21 +5726,11 @@ h2 {
 
   .accordion-answer,
   .accordion-answer.is-open {
-    display: block;
-    grid-template-rows: none;
     transform: none;
   }
 
   .accordion-answer {
-    height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: height .45s cubic-bezier(.22, 1, .36, 1), opacity .3s ease;
-    will-change: height, opacity;
-  }
-
-  .accordion-answer.is-open {
-    opacity: 1;
+    transition: opacity .25s ease;
   }
 
   .accordion .qa-list-tit {
