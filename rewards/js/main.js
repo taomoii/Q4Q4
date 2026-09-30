@@ -163,45 +163,10 @@ const app = Vue.createApp({
     },
     toggleFaq(index){
       const position = this.openFaq.indexOf(index);
-      const isMobile = window.matchMedia('(max-width: 600px)').matches;
-      if (!isMobile) {
-        if (position === -1) this.openFaq.push(index);
-        else this.openFaq.splice(position,1);
-        return;
-      }
-
-      const answer = this.$el.querySelectorAll('.accordion-answer')[index];
-      if (!answer || answer.dataset.animating === 'true') return;
-      answer.dataset.animating = 'true';
-
       if (position === -1) {
         this.openFaq.push(index);
-        this.$nextTick(() => {
-          answer.style.height = '0px';
-          answer.style.opacity = '0';
-          void answer.offsetHeight;
-          answer.style.height = `${answer.scrollHeight}px`;
-          answer.style.opacity = '1';
-          window.setTimeout(() => {
-            if (this.openFaq.includes(index)) answer.style.height = 'auto';
-            answer.style.opacity = '';
-            delete answer.dataset.animating;
-          }, 460);
-        });
       } else {
-        answer.style.height = `${answer.scrollHeight}px`;
-        answer.style.opacity = '1';
-        void answer.offsetHeight;
-        requestAnimationFrame(() => {
-          answer.style.height = '0px';
-          answer.style.opacity = '0';
-        });
-        window.setTimeout(() => {
-          this.openFaq.splice(this.openFaq.indexOf(index),1);
-          answer.style.height = '';
-          answer.style.opacity = '';
-          delete answer.dataset.animating;
-        }, 460);
+        this.openFaq.splice(position,1);
       }
     },
     setupParallax(){
