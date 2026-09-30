@@ -1921,13 +1921,6 @@ h3 {
   pointer-events: none
 }
 
-.hero-copy>a .hero-button-text {
-  position: relative;
-  z-index: 1;
-  display: block;
-  transition: transform .5s cubic-bezier(.19, 1, .22, 1)
-}
-
 .hero-copy>a .hero-button-arrow {
   position: absolute;
   top: 50%;
@@ -1939,10 +1932,6 @@ h3 {
   line-height: .7;
   transform: translateY(-54%);
   transition: transform .5s cubic-bezier(.19, 1, .22, 1)
-}
-
-.hero-copy>a:hover .hero-button-text {
-  transform: translateX(34px)
 }
 
 .hero-copy>a:hover .hero-button-arrow {
@@ -2650,7 +2639,7 @@ h3 {
 
   .hero-offers {
     left: 7%;
-    bottom: 6%;
+    bottom: 3%;
     width: 86%
   }
 
@@ -5997,11 +5986,21 @@ body {
 }
 
 .hero-copy>a {
-  background-image: linear-gradient(to right, #075bda 0%, #00349b 51%, #075bda 100%);
+  background-image: linear-gradient(to right,
+      #075bda 0%,
+      #00349b 51%,
+      #075bda 100%);
   background-position: 0% center;
   background-repeat: no-repeat;
   background-size: 200% auto;
-  transition: background-position .5s;
+  text-indent: 0;
+  transition:
+    background-position 0.5s,
+    text-indent 0.5s cubic-bezier(.19, 1, .22, 1);
+}
+
+.hero-copy>a:hover {
+  text-indent: 34px;
 }
 
 .primary-button:hover,

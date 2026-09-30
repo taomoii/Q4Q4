@@ -14,7 +14,7 @@ const app = Vue.createApp({
       menuOpen: false, showTop: false, ticketModal: false, pid: '', agreed: true, formMessage: '', rankingTab: 'tw', redeemTab: 0, redeemStep: 0, teachingDragStart: null, teachingDragX: 0, openFaq: [], noticeOpen: false, parallaxBalls: [], parallaxFrame: 0,
       navItems: [{id:'gifts',label:'好禮三重送'},{id:'fees',label:'手續費省更多'},{id:'open',label:'線上開戶'},{id:'ranking',label:'熱門排行'},{id:'qa',label:'Q&A'},
         {
-          url:'https://event.kgi.com.tw/news/event/newoffer/index.aspx?src=S_113&prod=P_160',
+          url:'https://event.kgi.com.tw/news/event/newoffer/index.aspx',
           label:'已結束-前期活動回顧'
         }
       ],
