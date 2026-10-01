@@ -4241,7 +4241,7 @@ html,
   margin: 18px 4px 0;
   color: #60798a;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.7;
 }
@@ -4250,13 +4250,13 @@ html,
   margin: -28px 4px 26px;
   color: #60798a;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.7;
 }
 
 .digital-section-title+.gift-audience-note {
-  margin: -14px 4px 18px;
+  margin: -14px 4px 8px;
   text-align: left;
 }
 
@@ -5744,16 +5744,19 @@ h2 {
   }
 
   .gift-audience-note {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.7;
   }
 
   .trade-heading>p.gift-audience-note {
-    font-size: 15px;
+    margin: -28px 4px 5px;
+    font-size: 18px;
     line-height: 1.7;
   }
 
   .digital-section-title+.gift-audience-note {
+    color: #075ea9;
+    font-size: 18px;
     text-align: center;
   }
 
