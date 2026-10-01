@@ -391,6 +391,7 @@
         data-kgi-chatbot-open
         aria-label="${config.triggerAlt}"
         id="chatbot-button"
+        text="開啟優享福利"
     >
 
         <img
