@@ -85,7 +85,7 @@
     <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/slick.css">
     <link rel="stylesheet" href="css/style.css?v=20261001">
     <!--客服-->
-    <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/chatbot.css?v=20260930">
+    <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/chatbot.css?v=20261001">
     <!--JS另外調整再最下方-->
 
     <script src="https://event.kgi.com.tw/news/event/commonResources/js/vue-v3.js"></script>
@@ -953,7 +953,7 @@
 
         }
       </script>
-      <script src="js/chatbot.js?v=20260930"></script>
+      <script src="js/chatbot.js?v=20261001"></script>
       <script src="js/main.js?v=20261001"></script>
       <script src="../event_setting/svip_rewards_2026Q4/checkdate.js"></script>
     </form>
