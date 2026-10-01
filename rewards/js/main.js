@@ -201,7 +201,7 @@ const app = Vue.createApp({
       const openAccountBackground = document.querySelector('.open-account-background-swipe');
       this.updateTradeBackground();
       window.addEventListener('resize', this.updateTradeBackground, {passive:true});
-      const selector = '.section img, .section h1, .section h2, .section h3, .section .eyebrow, .section article, .section form, .section .register-copy, .section .trade-threshold-list, .section .draw-chance, .section .thresholds, .section .tabs, .section .feature-panel, .section .ranking-tabs, .section .ranking-table, .section .accordion, .section .notice-title';
+      const selector = '.section img, .section h1, .section h2, .section h3, .section .eyebrow, .section .gift-audience-note, .section article, .section form, .section .register-copy, .section .trade-threshold-list, .section .draw-chance, .section .thresholds, .section .tabs, .section .feature-panel, .section .ranking-tabs, .section .ranking-table, .section .accordion, .section .notice-title';
       const targets = [...document.querySelectorAll(selector)].filter(el => !el.closest('.teaching-slide') && !el.closest('.notice'));
       document.documentElement.classList.add('reveal-enabled');
       targets.forEach((el, index) => {
