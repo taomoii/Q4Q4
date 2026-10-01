@@ -75,6 +75,11 @@ h3 {
   font-size: 15px;
 }
 
+/*單獨改智能客服層級*/
+.chatbot-button {
+  z-index: 2 !important;
+}
+
 /* Company-standard campaign header structure */
 .clearfix:after {
   content: "";
@@ -4247,6 +4252,53 @@ html,
   font-weight: 400;
 }
 
+.gift-audience-note {
+  margin: 18px 4px 0;
+  color: #60798a;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.trade-heading>p.gift-audience-note {
+  margin: -28px 4px 26px;
+  color: #60798a;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.digital-section-title+.gift-audience-note {
+  margin: -14px 4px 18px;
+  text-align: left;
+}
+
+@media(max-width:768px) {
+  .digital-content {
+    width: 100%;
+    justify-self: stretch;
+    text-align: center;
+  }
+
+  .digital-content .digital-section-title {
+    display: flex;
+    width: max-content;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .digital-content .digital-section-title,
+  .digital-content .gift-audience-note,
+  .digital-content h2,
+  .digital-content .lead,
+  .digital-content .digital-action {
+    text-align: center;
+  }
+}
+
 .ranking-shell .fine span {
   display: block;
 }
@@ -5708,6 +5760,20 @@ h2 {
     margin: 16px 2px 0;
     font-size: 14px;
     line-height: 1.7;
+  }
+
+  .gift-audience-note {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .trade-heading>p.gift-audience-note {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .digital-section-title+.gift-audience-note {
+    text-align: center;
   }
 
   .teaching .tab ul {

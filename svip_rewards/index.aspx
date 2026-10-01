@@ -455,6 +455,7 @@
               <div class="container center">
                 <div class="trade-heading">
                   <h3>第2重－股票交易禮</h3>
+                  <p class="gift-audience-note">不限新舊戶</p>
                   <div class="trade-entry-flow">
                     <div class="trade-threshold-list">
                       <div><img src="images/TW_flag.svg" alt="台灣">
@@ -504,6 +505,7 @@
                 </div>
                 <div class="digital-content">
                   <h3 class="digital-section-title">第3重－投資APP數位禮</h3>
+                  <p class="gift-audience-note">不限新舊戶</p>
                   <h2>我的投資，我做主</h2>
                   <p class="lead">隨身e策略 APP，掌握投資更全面</p>
                   <p class="digital-action">活動期間，登入隨身e策略 APP</p>
