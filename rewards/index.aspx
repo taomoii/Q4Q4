@@ -85,8 +85,8 @@
     <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/slick.css">
     <link rel="stylesheet" href="css/style.css?v=20261001">
     <!--客服-->
-    <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/chatbot.css?v=20260930">
-    <script src="https://event.kgi.com.tw/news/event/commonResources/js/chatbot.js?v=20260930"></script>
+    <link rel="stylesheet" href="https://event.kgi.com.tw/news/event/commonResources/css/chatbot.css?v=20261001">
+    <script src="https://event.kgi.com.tw/news/event/commonResources/js/chatbot.js?v=20261001"></script>
 
     <script src="https://event.kgi.com.tw/news/event/commonResources/js/vue-v3.js"></script>
     <script src="https://event.kgi.com.tw/news/event/commonResources/js/jquery-v3.4.min.js"></script>
